@@ -1,6 +1,6 @@
 # Maze Escape Game
 
-A Java-based multiplayer maze game where agents navigate through a dynamically changing labyrinth, collecting power-ups and avoiding traps while racing to reach the goal.
+A Java-based multiplayer maze game where agents navigate through a dynamically changing maze, collecting power-ups and avoiding traps while racing to reach the goal.
 
 ## Game Overview
 
@@ -21,20 +21,22 @@ In Maze Escape Game, AI-controlled agents compete to navigate a procedurally gen
 
 ### Compilation
 
-1. Make sure all Java files are in the same directory
-2. Compile all Java files using the following command:
+Open a terminal (Command Prompt on Windows, Terminal on macOS/Linux). 
 
-```bash
-javac *.java
-```
+Navigate to the folder where your .jar file is located: 
+
+bash 
+
+cd /path/to/jar 
+
 
 ### Running the Game
 
 After compilation, run the game using:
 
-```bash
-java App
-```
+bash 
+
+java –jar MazeGame.jar 
 
 ## Game Setup
 
@@ -100,7 +102,7 @@ At the end of the game, a summary is displayed showing:
 
 ## Example Game Session
 
-1. Run `java App`
+1. Run `java MazeGame`
 2. Enter maze dimensions (e.g., width: 15, height: 15)
 3. Enter number of agents (e.g., 4)
 4. Watch as the agents navigate the maze, competing to reach the goal first
